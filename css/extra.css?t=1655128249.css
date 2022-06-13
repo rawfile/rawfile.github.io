@@ -1,0 +1,50 @@
+
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.card, .modal-content, .modal-footer {
+    background-color: #303030;
+}
+
+canvas {
+  display: block;
+  background: #212529;
+  position: fixed;
+  z-index: -1;
+}
+
+  .footer {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 20px;
+}
+
+
+.form-control {
+    background-color: #1c2128;
+    border: 1px solid #333;
+    color: #fff;
+}
+.form-control:focus{
+    background-color:#1c2128;
+    color:#fff
+}
+
+.footer>.container {
+    border: 1px solid #21612c;
+    border-radius: 0;
+    padding: 20px 0 20px 20px;
+    background: #303030;
+    background: transparent; 
+    backdrop-filter: blur(6px);
+}
+
+.vh-center {
+    min-height: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
