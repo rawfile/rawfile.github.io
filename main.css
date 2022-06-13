@@ -1,4 +1,11 @@
-h2 {
-    background-color: #922dcc;
-    color: #ffffff;
-  }
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#particles-js
+{
+    height: 100%;
+    background: #212529
+}
