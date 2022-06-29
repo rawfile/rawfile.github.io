@@ -1,76 +1,192 @@
-<!DOCTYPE html>
-<html><head>
-    <title>LocalDrive portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <style type="text/css">
-        
-        html {
-            height: 100%;
-        }
-
-        body {
-            height: auto;
-            font-family: 'Source Sans Pro', sans-serif;
-            font-size: 18px;
-            line-height: 24px;
-            text-align: center;
-            margin: 0;
-            overflow: hidden;
-        }
-
-        .header {
-            padding: 20px 0;
-        }
-
-            .header img {
-                width: 320px;
-                margin: 0 auto;
-            }
-
-        .notification {
-            width: auto;
-            height: auto;
-            padding: 12px 20px;
-            margin: 0;
-            background-color: #f68802;
-            color: #000;
-        }
-        
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-      <img src="TBNew.png" alt="" width="60" height="40">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/blog">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact">Socials</a>
-        </li>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-    <p class="notification">
-        The site is currently being rewritten.
-        </p>
-    <img src="Maintenance.png" alt="Alert" class="ErrorAlert" height="440" width="600">
-    <h1>Zzz..</h1>
-    <h3>Builderman is sleeping?</h3>
-    <h3>oh hell naw</h3>
-        <a href="https://www.dropbox.com/sh/vwbhpf6z31yrksk/AADl9y2TsSMFDze62eReKAQZa?dl=0">Download Client</a>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" id="www-roblox-com"><!-- MachineID: APP14 --><head>
+		<title>WTTLD</title>
+		<link id="ctl00_Imports" rel="stylesheet" type="text/css" href="/CSS/AllCSS.ashx">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="Content-Language" content="en-us">
+		<meta name="author" content="GoodBlox">
+		<meta name="description" content="An archive of GoodBlox">
+		<meta name="keywords" content="goodblox, goodblock">
+		<meta property="og:title" content="The GOODBLOX Archive">
+	    <meta property="og:site_name" content="GoodBlox">
+	    <meta property="og:description" content="An Archive of GOODBLOX, a 2010 ROBLOX revival.">
+	    <meta property="og:type" content="website">
+	    <meta property="og:image" content="https://goodblox.xyz/resources/goodblox128.png">
+	</head>
+	<body>
+		<form name="aspnetForm" method="post" action="/" id="aspnetForm">
+			<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk4MDIwNTI1NQ9kFgJmD2QWBGYPZBYCAgIPFgIeB1Zpc2libGVoZAIBD2QWDAIDDw8WAh8AaGRkAgUPZBYCAgEPZBYCAgEPZBYCAgEPZBYCAgEPDxYCHgRBZElEKClZU3lzdGVtLkludDY0LCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkBMGQWAmYPDxYCHwBoZBYCAgEPDxYGHghJbWFnZVVybGQeC0NvbW1hbmROYW1lZR4PQ29tbWFuZEFyZ3VtZW50ZGRkAgkPDxYGHwIFGH4vaW1hZ2VzL3JvYmxveF9sb2dvLnBuZx8DZR8EZGRkAgsPZBYCZg9kFgICAQ9kFgICAQ9kFgRmDw8WBh8CBRt+L2ltYWdlcy9Ib2xpZGF5M0J1dHRvbi5wbmcfA2UfBGRkZAICDw8WAh8AaGQWBgIBDw8WAh8AaGRkAgMPDxYCHwBoZGQCBQ8PFgIfAGhkZAIPDw8WAh8AaGRkAhEPZBYEAgMPZBYCAgIPZBYCZg9kFgICARBkZBYCZg9kFgICAQ9kFgICCQ8QDxYCHgdDaGVja2VkZ2RkZGQCBQ9kFgJmD2QWAgIBDw8WBh8CBRx+L2ltYWdlcy9OZXdGcm9udFBhZ2VHdXkucG5nHwNlHwRkZGQYAgUjY3RsMDAkcmJ4R29vZ2xlQW5hbHl0aWNzJE11bHRpVmlldzEPD2RmZAUrY3RsMDAkY3BoQmFubmVyQWQkSG9tZVBhZ2VCYW5uZXIkTXVsdGlWaWV3MQ8PZGZkWTv3lNrNDisRD1/3V4a1IpW/BsM=">
+			<!--script src="/web/20090205023211js_/http://www.roblox.com/ScriptResource.axd?d=4DlCiUcqgNm3rwxw-XjB1CYLJrM0XaBGHo4L76RYUgyUk09px-Hx5XU-TWC-cotdFySkM8v436LkzfrLOqd7373bT4CW_pWJ3Mfc0Sl5Qz4ZAr43_gOHoLeNqTtoY7KU7CqIdozx_TdgkPdlbabo_84eyueRNN2c-xl1Nh9lNqg1IZTdobXL5ZHhMHV05wDsQu17Ehd0pJkXV-p9pRVwCg2" type="text/javascript"></script>
+			<script src="/web/20090205023211js_/http://www.roblox.com/ScriptResource.axd?d=ct_rRJZva00_Q0Q4DGQQwPHr2_-kPVSEhjNkU599raKVZV3UuOrIZK_g83hMg0qqdYwWW2E7ob-YIw0aYzX4kznZaCTKGInjxxqs1pWYQDI1" type="text/javascript"></script>
+			<script src="/web/20090205023211js_/http://www.roblox.com/Thumbs/Asset.asmx/js" type="text/javascript"></script-->
+			<script src="https://ajax.aspnetcdn.com/ajax/4.0/1/WebForms.js" type="text/javascript"></script>
+			<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+			<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+			<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBgLtpbKzBQKm1PjrDgLE+cmuDgLN3e/IDwLzkKeKBwLG686mB5r5ZKR910RaSAOymOpDCe/9VH0S">
+			<script>
+			  	function __doPostBack(eventTarget, eventArgument) {
+			    	var theForm = document.forms['aspnetForm'];
+			      	if (!theForm) {
+			          	theForm = document.aspnetForm;
+			      	}
+			      	if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+			          	theForm.__EVENTTARGET.value = eventTarget;
+			          	theForm.__EVENTARGUMENT.value = eventArgument;
+			          	theForm.submit();
+			      	}
+			  	}
+			</script>
+			<div id="MasterContainer">
+				<div id="Container">
+					<div id="AdvertisingLeaderboard">
+						<!--script type="text/javascript">
+							GA_googleFillSlot("Roblox_Home_Top_728x90");
+						</script-->
+					</div>
+					<div id="Header">
+						<div id="Banner">
+							<div id="Options">
+								<div id="Authentication">
+									<!--span><a id="ctl00_BannerOptionsLoginView_BannerOptions_Anonymous_LoginHyperLink" href="Login/Default.aspx">Login</a></span-->
+								</div>
+								<div id="Settings"></div>
+							</div>
+							<div id="Logo">
+								<a id="ctl00_rbxImage_Logo" title="GOODBLOX" href="/" style="display:inline-block;cursor:pointer;"><img src="/images/winterlogo.png" border="0" alt="GOODBLOX" blankurl="http://t6-cf.roblox.com/blank-224x59.gif"></a>
+							</div>
+							<div id="Alerts">
+								<!--table style="width:100%;height:100%">
+									<tr>
+										<td valign="middle"><a id="ctl00_BannerAlertsLoginView_BannerAlerts_Anonymous_rbxAlerts_SignupAndPlayHyperLink" class="SignUpAndPlay" text="Sign-up and Play!" href="/Games.aspx" style="display:inline-block;cursor:pointer;"><img src="/images/SignupBannerBlue.png" border="0" blankurl="http://t1-cf.roblox.com/blank-210x40.gif"/></a>
+										</td>
+									</tr>
+								</table-->
+							</div>
+						</div>
+						<div class="Navigation">
+							<span></span>
+							
+							<span><a id="ctl00_Menu_hlCatalog" class="MenuItem" href="/blog">Blog</a></span>
+							<span class="Separator">&nbsp;|&nbsp;</span>
+							<span><a id="ctl00_Menu_hlBrowse" class="MenuItem" href="/Projects">Projects</a></span>
+							<span class="Separator">&nbsp;|&nbsp;</span>
+							<span><a id="ctl00_Menu_hlBuildersClub" class="MenuItem" href="/contact">Socials</a></span>
+							
+							<span></span>
+							
+							<span></span>
+						</div>
+						
+					</div>
+					<div id="Body">
+						<div id="SplashContainer">
+	<div id="SignInPane">
+		<div id="LoginViewContainer">
+			<div id="LoginView">
+				<h5>Member Login</h5>
+				<div class="AspNet-Login">
+					<div class="AspNet-Login">
+						<div class="AspNet-Login-UserPanel">
+							<label for="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_UserName" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_UserNameLabel" class="Label">Character Name</label>
+							<input name="ctl00$cphRoblox$rbxLoginView$lvLoginView$lSignIn$UserName" type="text" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_UserName" tabindex="1" class="Text">
+						</div>
+						<div class="AspNet-Login-PasswordPanel">
+							<label for="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_Password" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_PasswordLabel" class="Label">Password</label>
+							<input name="ctl00$cphRoblox$rbxLoginView$lvLoginView$lSignIn$Password" type="password" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_Password" tabindex="2" class="Text">
+						</div>
+						<div class="AspNet-Login-SubmitPanel">
+							<a id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_Login" tabindex="4" class="Button" href="#" onclick="alert('lol not happening')">Login</a>
+						</div>
+						<div id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_RegisterDiv" align="center">
+							<br>
+							<a id="ctl00_cphRoblox_rbxLoginView_lvLoginView_lSignIn_Register" tabindex="5" class="Button" href="#" onclick="alert('lol not happening')">Register</a>
+						</div>
+						<div class="AspNet-Login-PasswordRecoveryPanel">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!--div id="Figure">
+			<a id="ctl00_cphRoblox_LoginView1_ImageFigure" disabled="disabled" title="Figure" onclick="return false" style="display:inline-block;"><img src="/web/20090205023211im_/http://www.roblox.com/images/NewFrontPageGuy.png" border="0" alt="Figure" blankurl="http://t1-cf.roblox.com/blank-115x130.gif"/></a>
+		</div-->
+	</div>
+	<div id="RobloxAtAGlance">
+		<h2>Welcome to the localdrive</h2>
+		<h3></h3>
+		<div id="ThingsToDo">
+			<!--h3>What is this?</h3-->
+			<!--p style="font-size:14px; margin-top:0;">GoodBlox was a 2010 ROBLOX revival that shut down indefinitely on February 28 2021 as a result of poor security, website and client wise. This is a viewable, read-only archive of GoodBlox's database. Though, not everything you may remember is here. <br><br> When GoodBlox shut down, we never really thought about the server expiring, so we don't really know if we took backups of anything. That includes thumbnails and the whole database. If any of us did ever take backups, well, we can't find any. <br><br> In short, what that means is that a lot of GoodBlox's data has completely been lost to time. I was able to recover some, but not much and they're not up to date. Here's what we have right now:</p>
+			<h3 style="margin-top:10px;"> - Users (from 10/28/2020)</h3>
+			<h3 style="margin-top:10px;"> - Friends (from 12/26/2020)</h3>
+			<h3 style="margin-top:10px;"> - Catalog Items (from 9/10/2020)</h3>
+			<p style="font-size:14px; margin-top:15px;">If ever I manage to dig up more stuff, I'll let you know. If it's any consolation, <a href="https://wiki.goodblox.xyz">the wiki still exists</a> but for now this is all we have.</p-->
+			<p style="font-size:14px; margin-top:0;">localdrive is revival that has no chosen client, but all we have is 2008 and 2013. We are going to choose 2009 as the owner thinks.<br><br>wewewewe</p>
+			
+			
+			
+			<p style="font-size:14px; margin-top:15px;"></p>
+		</div>
+		<div id="Showcase">
+			<div id="ctl00_cphRoblox_RobloxAtAGlanceLoginView_RobloxAtAGlance_Anonymous_NewPlayer">
+				<iframe width="400" height="326" src="https://www.bitview.net/embed.php?v=LYkKRQuT7_5" frameborder="0"></iframe>
+			</div>
+		</div>
+		<!--div id="Install">
+			<div id="CompatibilityNote">Works with your<br/>Windows PC!</div>
+			<div id="DownloadAndPlay"><a id="ctl00_cphRoblox_RobloxAtAGlanceLoginView_RobloxAtAGlance_Anonymous_hlDownloadAndPlay" href="Games.aspx"><img src="/images/PlayNowRedBlinker.gif" alt="FREE - Download and Play!" border="0"/></a></div>
+		</div>
+		<div id="ForParents">
+			<a id="ctl00_cphRoblox_RobloxAtAGlanceLoginView_RobloxAtAGlance_Anonymous_hlKidSafe" title="ROBLOX is kid-safe!" href="Parents.aspx" style="display:inline-block;"><img title="ROBLOX is kid-safe!" src="/web/20090205023211im_/http://www.roblox.com/images/COPPASeal-125x125.jpg" border="0"/></a>  
+		</div>
+		<div id="PrivPolicy" style="font-size:large;">
+			<a id="ctl00_cphRoblox_RobloxAtAGlanceLoginView_RobloxAtAGlance_Anonymous_hlPrivacyPolicy" href="info/Privacy.aspx" style="display:inline-block;">Privacy Policy</a>
+			<a id="ctl00_cphRoblox_RobloxAtAGlanceLoginView_RobloxAtAGlance_Anonymous_hlTruste" href="http://web.archive.org/web/20090205023211/http://www.truste.org/ivalidate.php?url=www.roblox.com&amp;sealid=105" style="display:inline-block;"><img src="/web/20090205023211im_/http://www.roblox.com/images/truste_seal_kids.gif" border="0"/></a>
+		</div-->
+	</div>
+</div>
+					</div>
+					<div style="clear:both"></div>
+					<div id="Footer">
+						<!--hr/>
+						<div class="FooterNav">
+							<a id="ctl00_rbxFooter_hlPrivacyPolicy" href="info/Privacy.aspx"><b>Privacy Policy</b></a>
+							&nbsp;|&nbsp; 
+							<a id="ctl00_rbxFooter_hlAdvertise" href="http://web.archive.org/web/20090205023211/http://sales.roblox.com/">Advertise with Us</a>
+							&nbsp;|&nbsp; 
+							<a href="http://web.archive.org/web/20090205023211/mailto:info@roblox.com">Contact Us</a> 
+							&nbsp;|&nbsp;
+							<a id="ctl00_rbxFooter_hlAboutRoblox" href="info/About.aspx">About Us</a>
+							&nbsp;|&nbsp;
+							<a id="ctl00_rbxFooter_HyperLink1" href="http://web.archive.org/web/20090205023211/http://jobs.roblox.com/">Jobs</a>
+						</div-->
+						<hr>
+						<!--p class="Legalese">
+							ROBLOX, "Online Building Toy", characters, logos, names, and all related indicia are trademarks of
+							<a id="ctl00_rbxFooter_hlRobloxCorporation" href="info/About.aspx">ROBLOX Corporation</a>,
+							©2009. Patents pending.
+							<br/>
+							ROBLOX Corp. is not affiliated with the LEGO Group, MegaBloks, Pokemon, Nintendo,
+							Lincoln Logs, Yu Gi Oh, K'nex, Tinkertoys, Erector Set, or the Pirates of the Caribbean.
+							ARrrr! The LEGO Group’s position with regard to intellectual property is stated
+							<a id="ctl00_rbxFooter_HyperLink2" href="info/Disclaimer.aspx">here</a>
+							.<br/>
+							Use of this site signifies your acceptance of the
+							<a id="ctl00_rbxFooter_hlTermsOfService" href="info/TermsOfService.aspx">Terms and Conditions</a>.
+							<br/>
+						</p-->
+						<p class="Legalese">
+							localdrive characters, logos, names, and all related indicia are trademarks of <a id="ctl00_rbxFooter_hlRobloxCorporation" href="info/About.aspx">ROBLOX Corporation</a>, ©2022. Patents pending.
+							<br>
+							Based off of January 2009 and code is from GOODBLOX archive by pizzaboxer
+						</p>
+					</div>
+				</div>
+			</div>
+		</form>
+	
 
 </body></html>
