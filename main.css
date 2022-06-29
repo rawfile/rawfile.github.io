@@ -1,5 +1,5 @@
 body{
-    font:normal 8pt/normal 'Comic Sans MS',Verdana,sans-serif;
+    font:normal 8pt/normal 'Comic Sans MS', 'Verdana' ,sans-serif;
     margin:0;
     text-transform:none;
     text-decoration:none;
@@ -9,7 +9,7 @@ a{
     text-decoration:none;
 }
 a:link,a:visited,a:active{
-    color:Blue;
+    color:rgb (137, 207, 240);
 }
 a:hover{
     text-decoration:underline;
@@ -28,7 +28,7 @@ h3{
     margin:10px 0 10px 0;
 }
 h5{
-    font:normal 11px/normal Verdana,sans-serif;
+    font:normal 11px/normal 'Verdana' ,sans-serif;
     letter-spacing:1px;
     padding:5px 5px 5px 5px;
 }
@@ -37,7 +37,7 @@ input.Text{
     border-style:dashed;
 }
 .AdminPanel{
-    border-color:Orange;
+    border-color:rgb (255, 191, 0);
     border-style:dotted;
     padding:10px;
 }
@@ -53,7 +53,7 @@ input.Text{
     background-color:#fff;
     border:solid 1px #333;
     color:#333;
-    font-family:Verdana,Sans-Serif;
+    font-family: 'Verdana' ,Sans-Serif;
     font-size:.9em;
     padding:3px 10px 3px 10px;
     text-decoration:none;
@@ -88,22 +88,22 @@ input.Text{
 #Header{
     margin:0 auto;
     border-top:solid 1px #000;
-    color:White;
-    font:normal 12px/normal Verdana,sans-serif;
+    color:rgb (255, 255, 255);
+    font:normal 12px/normal 'Verdana' ,sans-serif;
     font-weight:bold;
     width:900px;
     text-align:center;
 }
 #Header a,#Header a:visited,#Header a:active{
-    color:White;
+    color:rgb (255, 255, 255);
     text-decoration:none;
 }
 #Header a:hover{
-    color:White;
+    color:rgb (255, 255, 255);
     text-decoration:underline;
 }
 #Banner{
-    background-image:url(../images/DocBanner.png);
+    background-image:url (/images/DocBanner.png);
     background-repeat:no-repeat;
     border-bottom:solid 1px #000;
     border-left:solid 1px #000;
@@ -156,7 +156,7 @@ input.Text{
     color:#1874CD;
 }
 #Banner #Alerts #RobuxAlert a{
-    color:Green;
+    color:rgb (80, 200, 120);
 }
 #Banner #Alerts #RobuxAlert a:hover{
     color:#49b745;
@@ -177,7 +177,7 @@ input.Text{
     border-left:solid 1px #000;
     border-right:solid 1px #000;
     color:#fff;
-    font-family:'Comic Sans MS',Verdana,sans-serif;
+    font-family:'Comic Sans MS', 'Verdana' ,sans-serif;
     font-size:12pt;
     font-weight:normal;
     line-height:2em;
@@ -200,14 +200,14 @@ input.Text{
 }
 #MasterContainer{ 
     width:100%;
-    background:url(../images/bg_clouds.jpg) no-repeat center top;
+    background:url(/images/bg_clouds.jpg) no-repeat center top;
 }
 #Body{
     margin:10px 0;
     width:900px;
 }
 #Footer{
-    font:normal 8px/normal Verdana,sans-serif;
+    font:normal 8px/normal 'Verdana' ,sans-serif;
     margin-top:10px;
     width:900px;
     text-align:center;
@@ -229,15 +229,15 @@ input.Text{
     text-align:center;
 }
 .MultilineTextBox{
-    border:dashed 2px Gray;
-    font-family:Verdana,Sans-Serif;
+    border:dashed 2px rgb (128, 128, 128);
+    font-family: 'Verdana' ,Sans-Serif;
     font-size:1.2em;
     line-height:1.5em;
     padding:5px 5px;
 }
 .TextBox{
-    border:dashed 2px Gray;
-    font-family:Verdana,Sans-Serif;
+    border:dashed 2px rgb (128, 128, 128);
+    font-family: 'Verdana' ,Sans-Serif;
     font-size:1.2em;
     padding:5px;
 }
@@ -248,7 +248,7 @@ input.Text{
     background-color:#F5CD2F;
     color:#000;
     height:2.5em;
-    font-family:Comic Sans MS;
+    font-family:'Comic Sans MS';
     font-size:20px;
     font-weight:bold;
 }
@@ -256,7 +256,7 @@ input.Text{
     background-color:#F5CD2F;
     color:#000;
     height:2.5em;
-    font-family:Comic Sans MS;
+    font-family:'Comic Sans MS';
     font-size:15px;
     font-weight:bold;
 }
